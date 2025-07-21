@@ -1,6 +1,10 @@
-const { error } = require('console');
+
 const FS = require('fs');
 const {mkdir,rmdir,unlink,writeFile, readdir} = require('fs/promises');
+
+'use strict';
+// This script creates a directory, writes files based on user data, and then removes them after a delay.
+
 
 
 const users = [
